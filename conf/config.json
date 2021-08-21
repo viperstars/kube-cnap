@@ -1,0 +1,44 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8080,
+        "mode": "dev"
+    },
+    "bceConfig": {
+        "ak": "xx",
+        "sk": "xx"
+    },
+    "logging": {
+        "path": "api.log"
+    },
+    "db": {
+        "dsn": "root:mysql@tcp(127.0.0.1:3306)/test?charset=utf8"
+    },
+    "cas": {
+        "server": "http://test.cas.com/cas",
+        "casCallback": "http://192.168.31.72:4200/#/callback"
+    },
+    "registry": {
+        "auth": {
+            "username": "admin",
+            "password": "password",
+            "auth": "",
+            "email": ""
+        },
+        "pullPrefix": "hub.baidubce.com",
+        "keyName": "baidu-image-secret",
+        "serveraddress": "https://hub.baidubce.com"
+    },
+    "registryInfo": {
+        "auth": {
+            "username": "admin",
+            "password": "password",
+            "email": "test@example.com"
+        },
+        "keyName": "private-image-secret",
+        "username": "admin",
+        "password": "admin",
+        "addr": "docker-registry.test.com",
+        "url": "https://docker-registry.test.com"
+    }
+}
